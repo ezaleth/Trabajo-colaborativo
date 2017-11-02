@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>		<!--quiere decir que todo esta en html5-->
+<!DOCTYPE html>		<!--quiere decir que todo esta en html5-->
 <html> 			<!--todo debe ir dentro de estas etiquetas--><!-- -->
 	<head>			<!--Cabecera..no lo ven las personas -->
 
@@ -8,7 +8,13 @@
  
  		<title>Primera Pagina Web html5</title> <!--pertenece a head,nombre de la pestaña, tiene etiqueta doble -->
  		<link rel = "stylesheet" href="mihojadeestilo.css"/> <!--enlazar documentos -->
+ 		<header id="imagencabeceraizquierda"> 
+ 			<img src="Imagenes\LOGO.PNG" height="100%" width="17%" />
+	    </header>
 
+		<header id="imagencabeceraderecha"> 
+		<a href="https://www.contadorvisitasgratis.com" title="contador de visitas gratis"><img src="https://counter8.freecounter.ovh/private/contadorvisitasgratis.php?c=blafh5pn964lqnanlsdal8xk1lz393f9" border="0" title="contador de visitas gratis" alt="contador de visitas gratis"></a>
+		</header>
 
 <!--style en cabecera,trabaja localmente para cada seccion de la pagina, cambia las propiedades que estan en el archivo css-->
  		
@@ -22,47 +28,54 @@
 			<h1>O.V.I. SEGURIDAD INFORMATICA</h1>
 		</header>
 
-		<nav id="pruebanav">								<!--barra de navegacion -->
+		<nav id="navegador">								<!--barra de navegacion -->
 			<ul>							<!-- -->		
 				<!--style en particular, no es muy recomendable se usa para casos que quieras cambiar una sola cosa -->	
-				<li>INICIO</li>		<!-- -->
-				<li>LECTURA</li>
-				<li>MULTIMEDIA</li>
-				<li>ACTIVIDADES</li>
-				<li>AUTORES</li>
+				<li><a href="index.html">INICIO</a></li>	<!-- -->
+				<li><a href="lecturas.html">LECTURAS</a></li>
+				<li><a href="multimedia.html">MULTIMEDIAS</a></li>
+				<li><a href="#">ACTIVIDADES</a></li>
+				<li><a href="autores.html">AUTORES</a></li>
 			</ul>
 		</nav>
 
 		<aside id="primeraside">					<!--barras laterales -->
 
-			<blockquote>INICIO</blockquote>
-			<blockquote>LECTURA</blockquote>
-			<blockquote>MULTIMEDIA</blockquote>
-			<blockquote>ACTIVIDADES</blockquote>
-			<blockquote>AUTORES</blockquote>
+			<blockquote><a href="index.html">INICIO</a></blockquote>
+			<blockquote><a href="lecturas.html">LECTURAS</a></blockquote>
+			<blockquote><a href="multimedia.html">MULTIMEDIAS</a></blockquote>
+			<blockquote><a href="#">ACTIVIDADES</a></blockquote>
+			<blockquote><a href="autores.html">AUTORES</a></blockquote>
 
 		</aside>
+
+
+		<aside id="segundoaside">					<!--barras laterales -->
+
+					<a class="twitter-timeline" data-lang="es" data-width="250" data-height="450" data-theme="light" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				</aside>
+
 
 		<section id="primersection">								<!--Contenido principal, pueden haber articulos y dentro puede haber header(cabecera) y footer(info institucional) -->
 			<article>
 				<header>
 					<hgroup>				<!--se usa cuando vamos a tener titulos y subtitulos para agrupar-->
-					<h2>inicio</h2>
+					<center><h2>Inicio</h2>
 					</hgroup>
 				</header>
 
 				
-				El objeto virtual de información de seguridad informática tiene como fin que los visitantes, estudiantes y lectores adquieran los conocimientos fundamentales sobre la seguridad informática, reconozcan la importancia de establecer controles y estándares para aplicar las normas de seguridad en el área tecnológica. 
+				<p align="justify">El objeto virtual de información de seguridad informática tiene como fin que los visitantes, estudiantes y lectores adquieran los conocimientos fundamentales sobre la seguridad informática, reconozcan la importancia de establecer controles y estándares para aplicar las normas de seguridad en el área tecnológica. <p>
 				
 				<h3>Objetivo específico 1: </h3>
-				Dar a conocer los conceptos básicos de seguridad informática, estándares y norma en la seguridad de redes.
+				<p align="justify"> Dar a conocer los conceptos básicos de seguridad informática, estándares y norma en la seguridad de redes. <p>
 
 				<h3>Objetivo específico 2:</h3> 
-				Identificar las amenazas e incidentes hacia la seguridad y evaluar los riesgos que están pueden causar.
+				<p align="justify">Identificar las amenazas e incidentes hacia la seguridad y evaluar los riesgos que están pueden causar. <p>
 
 				<h3>Objetivo específico 3: </h3>
-				<h3>Objetivo específico 4: </h3>
-Desarrollar habilidades y actitudes en los lectores para aplicar controles de seguridad informática en su entorno cotidiano.
+				<p align="justify">Desarrollar habilidades y actitudes en los lectores para aplicar controles de seguridad informática en su entorno cotidiano. 	 <p>
 				
 
 
@@ -71,10 +84,9 @@ Desarrollar habilidades y actitudes en los lectores para aplicar controles de se
 		</section>
 
 		<footer id="finalfooter">								<!--informacion institucional, lo que va de ultimo en la pagina -->
-			derechos reservados
-			<address>(address)siempre debe ir en footer</address>
+			<h3>Derechos reservados</h3>
 		</footer>
-
+		<img src="Imagenes\PIE_DE_PAGINA.PNG"  width="100%" />	
 
 </body>
 
