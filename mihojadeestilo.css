@@ -43,6 +43,8 @@ body {background-color: #ffffff;}
    font-family: fantasy;
    margin-right: 290px;
    margin-left: 290px;
+   border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
 }
 #navegador li{
    display: inline;
@@ -69,6 +71,8 @@ width: 250px;
 margin-left: 5px;
 border: 3px solid #300;
 font-family: fantasy;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
 }
 
 #primeraside blockquote a {
@@ -87,6 +91,8 @@ float: right;                     /*para colocar la barra a la derecha*/
 margin-right: 5px;
 border: 2px solid #300;
 font-family: fantasy;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
 }
 
 #segundoaside blockquote a {
@@ -109,6 +115,8 @@ padding-left: 10px; /*para separar el texto del borde izquierdo */
 padding-right: 10px; /*para separar el texto del borde izquierdo */
 padding-top: 10px;  /*para separar texto del borde de arriba*/
 border: 3px solid #300;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
 height: 440px;
 }
 
@@ -129,7 +137,8 @@ text-align: center;
 }
 
 li {
-display: inline;				/* sirve para colocar uno alado del otro */
+list-style: none; 
+display: inline-block;				/* sirve para colocar uno alado del otro */
 margin-right: 7px;
 }
 
